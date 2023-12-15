@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: ani;
+    color: white;
+}
+
+body{
+    background: linear-gradient(to right,#000000, #222222, #444444, #666666);
+}
+@font-face {
+    font-family: ani;
+    src: url(American\ Captain.ttf);
+}
+
+.logo{
+ display: flex;
+ margin: 80px;
+}
+
+.tn{
+    
+}
+.one img{
+   width: 250px;
+   border-radius: 25px;
+}
+.titabt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 35px;
+    /* align-items: center; */
+}
+.title{
+  font-size: 50px;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn button{
+   width: 120px;
+   height: 35px;
+   font-size: 20px;
+   border: solid;
+   color: #000000;
+   padding: 5px;
+   border-radius: 50px;
+   background-color: #ffdd95;
+}
+
+.btn .btn-2{
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    color: #000000;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #ffdd95;
+}
+.fa-play, .fa-plus{
+    color: #000000;
+    margin-right: 2px;
+}
+
+.abt{
+    font-size: 27px;
+}
+
+.share{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.fa-share-alt{
+    font-size: 23px;
+}
+
+.share p{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.btn:hover, .fa:hover, .share:hover{
+    cursor: pointer;
+}
